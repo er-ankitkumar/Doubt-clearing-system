@@ -1,0 +1,1034 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgb(219, 236, 245);
+}
+
+.main .side {
+    position: relative;
+    width: 27%;
+    height: 100%;
+    background: paleturquoise;
+
+}
+
+.main .side img {
+    position: absolute;
+    top: 70px;
+    width: 1200px;
+    left: -200px;
+    z-index: 1;
+
+}
+
+.logo {
+    position: relative;
+    width: 100%;
+
+
+}
+
+.logo img {
+    position: absolute;
+    top: 200px;
+    width: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    left: 30%;
+
+
+}
+
+#form {
+    position: relative;
+    width: 100%;
+}
+
+#form #label1 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 370px;
+    left: 15%;
+}
+
+#form #label2 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 480px;
+    left: 15%;
+}
+
+#form #input1 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    /* text-align: center; */
+    width: 30%;
+    top: 460px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    left: 30%;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form #input2 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 570px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    left: 30%;
+    outline: none;
+    transition: 0.2s ease-in-out;
+
+}
+
+#sub1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    top: 670px;
+    left: 30%;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+}
+
+#sub2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    right: -80%;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+    top: 50px;
+
+}
+
+#sub2:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#sub1:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#form #input1:hover {
+    border-radius: 20px;
+}
+
+#form #input2:hover {
+    border-radius: 20px;
+}
+
+.htext h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    top: 135px;
+    color: cornflowerblue;
+
+}
+
+.htext a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#sub3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: 19px;
+    right: 13%;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+    top: 240px;
+    background: cornflowerblue;
+}
+
+#sub4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    right: -13%;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+    top: 240px;
+
+}
+
+#sub3:hover {
+    background: whitesmoke;
+    ;
+    color: black;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#sub4:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#form #label3 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 370px;
+    left: 15%;
+}
+
+#form #input3 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+
+    width: 30%;
+    top: 460px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    left: 30%;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form #input2 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 570px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    left: 30%;
+    outline: none;
+    transition: 0.2s ease-in-out;
+
+}
+
+#sub1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    top: 670px;
+    left: 30%;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+}
+
+#sub2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    right: -80%;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+    top: 50px;
+
+}
+
+#sub2:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#sub1:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#form #input1:hover {
+    border-radius: 20px;
+}
+
+#form #input2:hover {
+    border-radius: 20px;
+}
+
+.htext h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    top: 135px;
+    color: cornflowerblue;
+
+}
+
+.htext a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#sub3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: 19px;
+    right: 13%;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+    top: 240px;
+    background: cornflowerblue;
+}
+
+#sub4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    right: -13%;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+    top: 240px;
+
+}
+
+#sub3:hover {
+    background: whitesmoke;
+    ;
+    color: black;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#sub4:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#form #label3 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 330px;
+    left: 0px;
+
+}
+
+#form #input3 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 410px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form #input3:hover {
+    border-radius: 20px;
+}
+
+#form #label4 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 440px;
+    
+}
+
+#form #input4 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 520px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form #input4:hover {
+    border-radius: 20px;
+}
+
+#form #label5 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 550px;
+    
+}
+
+#form #input5 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 630px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form #input5:hover {
+    border-radius: 20px;
+}
+
+#form #label6 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 663px;
+    
+}
+
+#form #input6 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 743px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form #input6:hover {
+    border-radius: 20px;
+}
+
+#form #label7 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 771px;
+    
+}
+
+#form #input7 {
+    position: absolute;
+    color: blue;
+    font-size: 18px;
+    margin-top: 50px;
+    width: 30%;
+    top: 840px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    left: 17%;
+}
+
+#form #label9 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 872px;
+    
+}
+
+#form #input9 {
+    position: absolute;
+    color: blue;
+    font-size: 18px;
+    margin-top: 50px;
+    width: 30%;
+    top: 938px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    left: 17%;
+}
+
+#form #label8 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 770px;
+    
+}
+
+#form #input8 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 845px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form #input8:hover {
+    border-radius: 20px;
+}
+
+
+
+.htext a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    right: -80%;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+    top: 50px;
+    background: rgb(219, 236, 245);
+
+}
+
+.htext a:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#sub5{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    top: 910px;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+}
+
+#sub5:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#sub6{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    top: 1000px;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+    
+}
+
+#sub6:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+    
+}
+
+.idno{
+    position: relative;
+    width:100%;
+    height: 220px;
+    background: cornflowerblue;
+    
+}
+
+.idno h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    top: 35px;
+}
+
+.roll h1{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    color: white;
+    top: 85px;
+    left: 201px;     ;
+
+}
+.section h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 135px;
+    left: -41px;     ;
+}
+
+.pic{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+.mypic{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 60%;
+    top: -205px;
+    border-radius: 100px;
+    overflow: hidden;
+    
+}
+
+.mypic1{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 61%;
+    top: -245px;
+    border-radius: 100px;
+    overflow: hidden;
+    
+}
+.mypic1 img{
+    position: absolute;
+    width: 200px;
+    /* top: -220px; */
+    
+
+}
+.mypic img{
+    position: absolute;
+    width: 200px;
+    /* top: -220px; */
+    
+
+}
+
+.f a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+    top:150px;
+    right: 20%;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 20px;
+    color: white;
+}
+
+.f a:hover {
+    color:cornflowerblue;
+    background: white;
+    
+}
+
+#form1 #label11 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 290px;
+    left: 0px;
+
+}
+
+#form1 #input11 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 385px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form1 #input11:hover {
+    border-radius: 20px;
+}
+
+#form1 #label12 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    top: 420px;
+    left: 0;
+
+}
+#form1 #q {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 518px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form1 #q:hover {
+    border-radius: 20px;
+}
+
+#sub13{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    top: 820px;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+}
+
+#sub13:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+#form1 #input12 {
+    position: absolute;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 30%;
+    top: 515px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#form1 #input12:hover {
+    border-radius: 20px;
+}
+#sub14{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10%;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    font-size: 19px;
+    top: 620px;
+    transition: 0.2s ease-in-out;
+    border: 2px solid blue;
+}
+
+#sub14:hover {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+.t_ques_n{
+    position: relative;
+    width: 100%;
+}
+.t_ques_n h1{
+    position: absolute;
+    width: 100%;
+    color: cornflowerblue;
+    text-align: center;
+    top: -150px;
+}
+
+.t_ques{
+    position: relative;
+    width: 100%;
+}
+.t_ques p{
+    position: absolute;
+    color: red;
+    width: 60%;
+    text-align: center;
+    top: -20px;
+    border:2px solid white;
+    background: white;
+    height: 200px;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 160px;
+
+}
+
+.t_ques2{
+    position: relative;
+    width: 100%;
+}
+.t_ques2 p{
+    position: absolute;
+    color: red;
+    width: 60%;
+    text-align: center;
+    top: 285px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 160px;
+
+}
+.t_ques2 h5{
+    position: absolute;
+    color: red;
+    width: 60%;
+    text-align: center;
+    top: 325px;
+    height: 200px;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 160px;
+
+}
+
+.t_ques2 h3{
+    position: absolute;
+    color: red;
+    width: 60%;
+    text-align: center;
+    top: 240px;
+    height: 200px;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 160px;
+
+}
